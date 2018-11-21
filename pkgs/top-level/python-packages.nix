@@ -4922,6 +4922,8 @@ in {
 
   scour = callPackage ../development/python-modules/scour { };
 
+  importlib-resources = callPackage ../development/python-modules/importlib-resources {};
+
 });
 
 in fix' (extends overrides packages)
