@@ -4922,6 +4922,8 @@ in {
 
   scour = callPackage ../development/python-modules/scour { };
 
+  importlib-metadata = callPackage ../development/python-modules/importlib-metadata {};
+
   importlib-resources = callPackage ../development/python-modules/importlib-resources {};
 
 });
